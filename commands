@@ -1,0 +1,16 @@
+ 1240  git remote add origin https://gitlab.com/qjkconsultants/flask_testdriven_v2.git
+ 1241  git branch -M main
+ 1242  git push -uf origin main
+ 1243  rm -rf .git
+ 1244  git init
+ 1245  git add README.md
+ 1246  git commit -m "first commit"
+ 1247  git branch -M main
+ 1248  git remote add origin https://github.com/qjkconsultants/tdd-flask.git
+ 1249  git push -u origin main
+ 1250  git status
+ 1251  git add README.md
+ 1252  git commit -m"Added Author name"
+ 1253  git push origin main
+ 1254  git push -u -f origin main
+ 1255  history
