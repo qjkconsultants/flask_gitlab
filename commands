@@ -14,3 +14,19 @@
  1253  git push origin main
  1254  git push -u -f origin main
  1255  history
+ 1432  docker-compose exec api isort src/api/users.py
+ 1433  docker-compose exec api isort src --check-only
+ 1434  docker-compose exec api isort src/tests/test_users.py
+ 1435  docker-compose exec api isort src --check-only
+ 1436  git status
+ 1437  history | grep heroku
+ 1438  heroku auth:token
+ 1439  docker-compose exec api python -m pytest "src/tests" -p no:warnings
+ 1440  docker-compose exec api python -m pytest "src/tests" -p no:warnings
+ 1441  docker-compose exec api python -m pytest "src/tests" -p no:warnings
+ 1442  docker-compose exec api python -m pytest "src/tests" -p no:warnings
+ 1443  l
+ 1444  cat commands
+ 1445  docker compose -d --build
+ 1446  docker compose up -d --build
+ 1447  docker-compose exec api python -m pytest "src/tests" -p no:warnings
